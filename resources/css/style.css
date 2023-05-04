@@ -8,7 +8,6 @@
    
   .head {
     width: 100%;
-    border: red dashed;
   }
 
   .head h1 {
@@ -18,12 +17,11 @@
     justify-items: center;
     justify-content: center;
     text-align: center;
-    height: 150px;
+    height: 100px;
     width: 100%;
     color: #FFF;
     font-weight: normal;
     font-size: 50px;
-    border: blue dashed;
   }
   .head h3 {
     text-align: center;
@@ -32,16 +30,24 @@
     font-weight: bold;
     font-size: 16px;
     text-decoration: underline;
-    border: blue dashed;
   }
    
-   
-  p, 
-  li {
-    font-size: 18px;
+  .video {
+    display: flex;
+    justify-content: center;
   }
-   
-   
-  a {
-    text-decoration: none;
+
+  .middle h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-size: 42px;
+  }
+  
+  .middle p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    color: gray;
+    text-align: center;
   }
