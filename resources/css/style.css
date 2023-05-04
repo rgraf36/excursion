@@ -51,3 +51,14 @@
     color: gray;
     text-align: center;
   }
+
+  .bottom {
+    align-items: center;
+  }
+  .bottom p {
+    color: aquamarine;
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+  }
