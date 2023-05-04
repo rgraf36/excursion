@@ -1,10 +1,38 @@
 * {
-    font-family: Helvetica;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
    
+  body {
+    background-color: black;
+  }
    
-  h1 {
-    color: rgb(18, 88, 48);
+  .head {
+    width: 100%;
+    border: red dashed;
+  }
+
+  .head h1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    color: #FFF;
+    font-weight: normal;
+    font-size: 50px;
+    border: blue dashed;
+  }
+  .head h3 {
+    text-align: center;
+    width: 100%;
+    color: aquamarine;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: underline;
+    border: blue dashed;
   }
    
    
